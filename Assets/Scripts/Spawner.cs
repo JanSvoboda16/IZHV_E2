@@ -124,7 +124,7 @@ public class Spawner : MonoBehaviour
     {
         spawnAccumulator = 0.0f;
         nextSpawnIn = RandomNormal(spawnFrequencyMean, spawnFrequencyStd);
-        randomGenerator = new System.Random(2588);
+        randomGenerator = new System.Random();
     }
 
     /// <summary>
